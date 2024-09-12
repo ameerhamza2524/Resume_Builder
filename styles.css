@@ -1,0 +1,95 @@
+ /* General Styling */
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Header styling for name and profession */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: #333;
+}
+
+.header h3 {
+    font-size: 1.25rem;
+    margin: 5px 0 0;
+    color: #555;
+}
+
+/* Hero section for personal details */
+.hero {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.hero h3 {
+    margin: 12px 0 5px;
+    color: #444;
+}
+
+/* Input form styling */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="url"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for dynamically added skills */
+#skillsContainer .skill {
+    margin-top: 5px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
